@@ -91,6 +91,8 @@ Through this project, I gained practical experience with:
 ## Screenshots
 
 * Main Menu
+  <img width="982" height="581" alt="image" src="https://github.com/user-attachments/assets/eb8bafc2-48d4-4c1e-a4cc-09ea53b5cff1" />
+
 * Nutrition Search Screen
 * Log Meal Screen
 * Display Meals Screen
