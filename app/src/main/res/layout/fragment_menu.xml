@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMenu">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Food Tracker!"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- LinearLayout for Buttons -->
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/logMealButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log Meal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_green_dark"/>
+
+        <Button
+            android:id="@+id/dailyGoalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Goal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_green_dark"/>
+
+        <Button
+            android:id="@+id/displayMealButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display All Logged Meals"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@android:color/holo_green_dark"/>
+
+    </LinearLayout>
+</FrameLayout>

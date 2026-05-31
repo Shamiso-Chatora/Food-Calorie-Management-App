@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment2MAD</string>
+    <string-array name="meal_types">
+        <item>Enter meal type</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snack</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <item>Day 3</item>
+        <item>Day 4</item>
+        <item>Day 5</item>
+        <item>Day 6</item>
+        <item>Day 7</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Tracker"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"/>
+
+            <Spinner
+                android:id="@+id/daySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/mealNameInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Meal Name"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/portionSizeInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Portion Size"
+                android:layout_marginBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/mealTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/searchNutritionalInfoButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search Nutritional Info"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/logMealButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log Meal"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/caloriesInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Calories"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/fatsInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fats (g)"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/proteinsInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Proteins (g)"
+                android:visibility="gone"/>
+
+            <EditText
+                android:id="@+id/carbohydratesInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Carbohydrates (g)"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/apiResultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"/>
+
+            <ProgressBar
+                android:id="@+id/progressBarId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/photoImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="Meal Photo"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/pickImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Photo" />
+
+            <Button
+                android:id="@+id/doneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Done"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

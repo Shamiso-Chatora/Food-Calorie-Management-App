@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503495478700",
+    "project_id": "mealphotostorage",
+    "storage_bucket": "mealphotostorage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503495478700:android:64d096f8fd9182ecafbe09",
+        "android_client_info": {
+          "package_name": "com.example.assignment2mad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl6-DgzfuaHzo--bSJt_3zKmiF1nXo0Cg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
